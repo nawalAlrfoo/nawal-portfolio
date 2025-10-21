@@ -1,7 +1,6 @@
 body{
-    background-color: #F0E3D3;
+    background-color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
-    color :#C58C6E;
     text-align: center;
 }
 * {
@@ -9,8 +8,8 @@ body{
   padding: 0;
 }
 header{
-    background-color: #C58C6E;
-    color :#F0E3D3;
+    background-color: #d5dee6;
+    color :#464a4e;
     width: 100%;    
     padding: 20px;      
     margin-bottom: 40px;
@@ -24,8 +23,8 @@ h1 {
 }
 section{
     text-align: left;
-    background-color: #DDBEA9;
-    color: #6B705C;
+    background-color: #d5dee6;
+    color: #464a4e;
     margin-bottom: 40px;
     margin-left: 10%;
     margin-right: 10%;
@@ -33,15 +32,15 @@ section{
     width: 80%; 
 }
 footer{
-    color: #C58C6E;
-    a:hover{color: #6B705C;}
-    a:active{color: #C58C6E;}
+    color: #7ea6c9;
+    a:hover{color: #7ea6c9;}
+    a:active{color: #7ea6c9;}
     a:visited{color: #000000;}
 }
 ul{
     padding: 30px;      
-
 }
+
 
 
 
