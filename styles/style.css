@@ -31,7 +31,7 @@ section{
     padding: 40px;
     width: 80%; 
 }
-footer{
+footer,#link{
     color: #7ea6c9;
     a:hover{color: #7ea6c9;}
     a:active{color: #7ea6c9;}
@@ -40,7 +40,10 @@ footer{
 ul{
     padding: 30px;      
 }
-
+#link{
+    font-size:x-small;
+    text-align: right;
+}
 
 
 
