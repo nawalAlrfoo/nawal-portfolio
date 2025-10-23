@@ -85,7 +85,7 @@ section {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: #fff;
+  background: #f1f4f5;
   color: #1e1e1e;
   border: 2px solid #e5ecf2;
   padding: 10px 14px;
@@ -102,6 +102,26 @@ ul.square { list-style: square; }
 .projects dd { margin-left: 0; margin-bottom: 8px; }
 
 
+/* ===== Navigation Bar ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: left;
+  font-family: 'Inter', sans-serif;
+}
+.nav-left h1 {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+  margin: 0;
+}
+.nav-right a {
+  color: #617788;
+  text-decoration: none;
+  margin-left: 18px;
+  font-weight: 500;
+  transition: color 0.5s ease;
+}
+
 /* ===== Footer ===== */
 footer {
   color: var(--accent);
@@ -113,3 +133,4 @@ footer a {
   text-decoration: none;
 }
 footer a:hover { opacity: .75; }
+
