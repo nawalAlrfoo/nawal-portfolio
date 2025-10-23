@@ -1,163 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords"content="personal portfolio, nawal alrfoo, non, programmer">
-    <meta name="description" content="My personal portfolio showcasing my interests in programming and UI design.">
-    <meta name="author"content="nawal alrfoo">
-    <title>nawal alrfoo </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="keywords" content="personal portfolio, nawal alrfoo, non, programmer">
+  <meta name="description" content="My personal portfolio showcasing my interests in programming and UI design.">
+  <meta name="author" content="Nawal AL-Rfoo">
+  <meta name="theme-color" content="#d5dee6">
+  <title>Nawal AL-Rfoo</title>
 
-    <link rel="stylesheet" href="styles/style.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
 
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/style.css">
 
 </head>
 <body>
-    <header >
-        <h1>Nawal AL-Rfoo </h1>
-        <p id="link">
-        <a href="#OBJECTIVE" >OBJECTIVE</a>
-        <a href="#EDUCATION">EDUCATION</a>
-        <a href="#TECHNICAL_SKILLS">TECHNICAL SKILLS</a>
-        <a href="#KEY_APPLIED_PROJECTS">KEY APPLIED PROJECTS</a>
-        <a href="#ADDITIONAL_PROJECTS">ADDITIONAL PROJECTS</a>
-        <a href="#COURSES&CERTIFICATIONS">COURSES & CERTIFICATIONS</a>
-        <a href="#ACHIEVEMENTS&AWARDS">ACHIEVEMENTS & AWARDS</a>
-        <a href="#LANGUAGES&INTERESTS">LANGUAGES & INTERESTS</a>
-        <a href="#Interests">Interests</a>
-       </p>
 
-    </header>
+  <!-- ===== HEADER ===== -->
+  <header>
+      <p id="name">Nawal AL-Rfoo</p>
+  </header>
 
-    <section >
-        <div style="width: 150px;; float: left;">
-            <img src="myphoto.jpg" alt="Profile Photo" style="width: 120px;height: 120px; border-radius: 30px;">
+  <main>
+    <section>
+      <div class="profile-wrap">
+        <img src="myphoto.jpg" alt="Profile Photo" loading="lazy">
+      </div>
+
+      <div class="hero-text">
+        <h2>Nawal Sufyan Mubarak Alrfoo</h2>
+        <h3>Technology Student – Programmer & UI/UX Designer</h3>
+
+        <div>
+          <a class="btn" href="cv.pdf" download>
+            <i class="fa-solid fa-file-arrow-down"></i>
+            Download CV
+          </a>
+          
         </div>
-        <br>
-        <h2>Nawal Sufyan Mubarak Alrfoo <br></h2><br>
-            <h3>Technology Student – Programmer and User Interface (UI/UX) Designer</h3> 
-    <br>
+      </div>
     </section>
 
-
-<div style="width: 70%; float: right;">
-</div>
-
-
-    <!--OBJECTIVE-->
+    <!-- OBJECTIVE -->
     <section id="OBJECTIVE">
-        <p><span style="font-size: xx-large;">OBJECTIVE</span><br><br> A highly passionate Smart Devices Computing student, programmer, and UI/UX designer dedicated to blending programming proficiency with user-centric design.<br> I aim to develop engaging web and mobile applications that merge precision in functionality with aesthetic appeal. I am strongly committed to continuous growth and excellence in both my academic and professional journey.</p>
+      <h2>OBJECTIVE</h2>
+      <p>
+        A highly passionate Smart Devices Computing student, programmer, and UI/UX designer dedicated to blending programming proficiency with user-centric design.
+        I aim to develop engaging web and mobile applications that merge precision in functionality with aesthetic appeal. I am strongly committed to continuous growth
+        and excellence in both my academic and professional journey.
+      </p>
     </section>
 
-    <!--EDUCATION-->
+    <!-- EDUCATION -->
     <section id="EDUCATION">
-  <p><span style="font-size: xx-large;">EDUCATION</span></p>
-  
-  <ul style="list-style-type: square;">
-    <li>Major: Smart Devices Computing</li>
-    <li>Academic Year: Third Year (Ongoing)</li>
-    <li>Cumulative GPA: 85.7% (Ranked among the top students in the major)</li>
-  </ul>
-</section>
+      <h2>EDUCATION</h2>
+      <ul class="square">
+        <li>Major: Smart Devices Computing</li>
+        <li>Academic Year: Third Year (Ongoing)</li>
+        <li>Cumulative GPA: 85.7% (Ranked among the top students in the major)</li>
+      </ul>
+    </section>
 
-<!--TECHNICAL SKILLS-->
+    <!-- TECHNICAL SKILLS -->
     <section id="TECHNICAL_SKILLS">
-  <p><span style="font-size: xx-large;">TECHNICAL SKILLS</span></p>
-  
-  <ul style="list-style-type: square;">
-    <li>Programming Languages: C++, Java, Kotlin, C#, Python</li>
-    <li>Web Development: HTML, CSS, JavaScript, MySQL</li>
-    <li>Mobile Application Development: Android Studio, XML Layouts</li>
-    <li>Databases: SQL Server, MS Access, MySQL</li>
-    <li>Tools & Environments: Visual Studio, Visual Studio Code, Eclipse, Git, GitHub</li>
-    <li>Design & User Experience (UI/UX): Wireframing, Prototyping, Canva</li>
-  </ul>
-</section>
+      <h2>TECHNICAL SKILLS</h2>
+      <ul class="square">
+        <li>Programming: C++, Java, Kotlin, C#, Python</li>
+        <li>Web: HTML, CSS, JavaScript, MySQL</li>
+        <li>Mobile: Android Studio, XML Layouts</li>
+        <li>Databases: SQL Server, MS Access, MySQL</li>
+        <li>Tools: Visual Studio, VS Code, Eclipse, Git, GitHub</li>
+        <li>Design & UX: Wireframing, Prototyping, Canva</li>
+      </ul>
+    </section>
 
-<!--KEY APPLIED PROJECTS-->
-<section id="KEY_APPLIED_PROJECTS">
-      <p><span style="font-size: xx-large;">KEY APPLIED PROJECTS</span></p>
-      <dl>
-        <br>
-        <dt>Fake News Detection Model (Python): </dt>
-        <dd>Machine learning model to classify news as real or fake using Scikit-learn, Pandas, and TF-IDF Vectorizer.</dd>
-        <br>
-        <dt>Task Management Application (C#): </dt>
-        <dd>Desktop app for IT students at TTU to manage academic tasks using Guna UI.</dd>
-        <br>
-        <dt>Note App (Kotlin): </dt>
+    <!-- KEY APPLIED PROJECTS -->
+    <section id="KEY_APPLIED_PROJECTS">
+      <h2>KEY APPLIED PROJECTS</h2>
+      <dl class="projects">
+        <dt>Fake News Detection Model (Python)</dt>
+        <dd>ML model to classify news using Scikit-learn, Pandas, TF-IDF.</dd>
+
+        <dt>Task Management Application (C#)</dt>
+        <dd>Desktop app for IT students at TTU using Guna UI.</dd>
+
+        <dt>Note App (Kotlin)</dt>
         <dd>Simple Android note-taking app with intuitive interface.</dd>
-        <br>
-        <dt>Cinema Booking System (C#): </dt>
-        <dd>Desktop app to manage cinema tickets with Windows Forms interface and SQL Server database.</dd>
-        <br>
-        <dt>Bank Management System (Java): </dt>
-        <dd>Banking system applying Object-Oriented Programming (OOP) principles.</dd>
+
+        <dt>Cinema Booking System (C#)</dt>
+        <dd>Windows Forms + SQL Server.</dd>
+
+        <dt>Bank Management System (Java)</dt>
+        <dd>Applies OOP principles.</dd>
       </dl>
+    </section>
 
-</section>
+    <!-- ADDITIONAL PROJECTS -->
+    <section id="ADDITIONAL_PROJECTS">
+      <h2>ADDITIONAL PROJECTS</h2>
+      <ul>
+        <li>Flower Shop Website (HTML, CSS, JS): Responsive e-commerce with smooth UX.</li>
+        <li>Zoo Ticket Booking System (Java): OOP-based booking simulation.</li>
+        <li>Hit the Hedgehog Game (C#): Reaction game using timers.</li>
+      </ul>
+    </section>
 
-<!--ADDITIONAL PROJECTS-->
-<section id="ADDITIONAL_PROJECTS">
-          <p><span style="font-size: xx-large;">ADDITIONAL PROJECTS</span></p>
-    
-    <ul>
-        <li>Flower Shop Website (HTML, CSS, JavaScript): <br>Responsive e-commerce website with smooth UX.</li>
-        <br>
-        <li>Zoo Ticket Booking System (Java):<br> Java app simulating a real booking system and applying OOP.</li>
-        <br>
-        <li>Hit the Hedgehog Game (C#):<br> Interactive game testing user reaction speed using Timers.</li>
-        <br>
-    </ul>
-</section>
-<!--COURSES & CERTIFICATIONS-->
-<section id="COURSES&CERTIFICATIONS">
-          <p><span style="font-size: xx-large;">COURSES & CERTIFICATIONS</span></p>
-    
-    <ul>
-        <li>Development & Design:  <br>Android Development (Kotlin & XML), UI/UX Design with Canva, and Front-End Web Design (HTML, CSS, JavaScript)..</li>
-        <br>
-        <li>Programming & Core IT: <br> Advanced C# Programming, Android Development with Kotlin, AI, OS, Databases, Web Programming.</li>
-        <br>
-        <li>Professional Skills: <br> Orange Digital Center – Certified in Conflict Resolution and Project Management; Business Development Center (BDC) – Certified in “Irada” Program (2023); King Abdullah II Youth Center – Certified in Facilitation and Training (2023); Certified in Communication Skills (2023).</li>
-        <br>
-    </ul>
-</section>
+    <!-- COURSES & CERTIFICATIONS -->
+    <section id="COURSES_CERTIFICATIONS">
+      <h2>COURSES & CERTIFICATIONS</h2>
+      <ul>
+        <li>Android (Kotlin & XML), UI/UX with Canva, Front-End (HTML/CSS/JS).</li>
+        <li>Advanced C#, AI, OS, Databases, Web Programming.</li>
+        <li>ODC (Conflict Resolution, PM), BDC "Irada" (2023), King Abdullah II Youth Center (Facilitation, 2023), Communication Skills (2023).</li>
+      </ul>
+    </section>
 
-<!--ACHIEVEMENTS & AWARDS-->
-<section id="ACHIEVEMENTS&AWARDS">
-    <p><span style="font-size: xx-large;">ACHIEVEMENTS & AWARDS</span><br><br>
-    Awarded a Certificate of Appreciation as the Top Student in Smart Devices Computing at the Faculty of Information Technology and Communications, Tafila Technical University, for outstanding academic performance and innovation in technology.
-    </p>
-  
-</section>
+    <!-- ACHIEVEMENTS & AWARDS -->
+    <section id="ACHIEVEMENTS_AWARDS" >
+      <h2>ACHIEVEMENTS & AWARDS</h2>
+      <p>Certificate of Appreciation as the Top Student in Smart Devices Computing at TTU.</p>
+    </section>
 
-<!--LANGUAGES & INTERESTS-->
-<section id="LANGUAGES&INTERESTS">
-    <p><span style="font-size: xx-large;">LANGUAGES & INTERESTS</span></p>
-    
-    <ul type="list-style-type: square">
+    <!-- LANGUAGES & INTERESTS -->
+    <section id="LANGUAGES_INTERESTS">
+      <h2>LANGUAGES & INTERESTS</h2>
+      <ul class="square">
         <li>Arabic: Native</li>
-        <li>English: Basic Level (A2) – Currently improving through self-learning and practice.</li>
-    </ul>
-</section>
+        <li>English: Basic Level (A2) – Improving via practice.</li>
+      </ul>
+    </section>
 
-<!--Interests:-->
-<section id="Interests">
-    <p><span style="font-size: xx-large;">Interests</span></p>
-    <br>
-    Building modern user interfaces, drawing and design, chess, and participation in local technology events.
-</section>
+  </main>
 
-
-<footer>
+    <!-- footer -->
+  <footer>
     <p>
- nawalalrfoo@gmail.com<br>
- +962 779666286<br>
- <a href="linkedin.com/in/nawal-alrfoo-344984319 ">linkedin</a><br>
- <a href="github.com/NawalAlrfoo">github</a>
+      nawalalrfoo@gmail.com<br>
+      +962 779666286<br>
+      <a href="https://linkedin.com/in/nawal-alrfoo-344984319" target="_blank" rel="noopener">LinkedIn</a> ·
+      <a href="https://github.com/NawalAlrfoo" target="_blank" rel="noopener">GitHub</a>
     </p>
-</footer>
+  </footer>
 
 </body>
 </html>
