@@ -25,18 +25,26 @@
 
   <!-- ===== HEADER ===== -->
   <header>
-      <nav class="navbar">
-     <p id="name">Nawal AL-Rfoo</p>   
-     
-  <div class="nav-right">
-       <a href="#OBJECTIVE" >OBJECTIVE</a>
-        <a href="#EDUCATION">EDUCATION</a>
-        <a href="#TECHNICAL_SKILLS">TECHNICAL SKILLS</a>
-        <a href="#COURSES_CERTIFICATIONS">Courses</a>
+  <nav class="navbar">
+    <p id="name">Nawal AL-Rfoo</p>
 
-  </div>
-</nav>
-  </header>
+    <!-- زر الهمبرغر يظهر على الموبايل -->
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <!-- روابط التنقّل (سنحوّلها لقائمة جانبية على الموبايل) -->
+    <div class="nav-right" id="siteNav" role="navigation">
+      <a href="#OBJECTIVE">OBJECTIVE</a>
+      <a href="#EDUCATION">EDUCATION</a>
+      <a href="#TECHNICAL_SKILLS">TECHNICAL SKILLS</a>
+      <a href="#COURSES_CERTIFICATIONS">Courses</a>
+    </div>
+  </nav>
+
+  <!-- طبقة التعتيم عند فتح القائمة -->
+  <div id="overlay" hidden></div>
+</header>
 
   <main>
     <section>
@@ -163,6 +171,7 @@
         <i class="fa-brands fa-github"></i> GitHub</a>
     </p>
   </footer>
+<script src="scripts/menu.js"></script>
 
 </body>
 </html>
